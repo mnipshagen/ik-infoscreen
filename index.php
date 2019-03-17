@@ -98,6 +98,17 @@
                     <?php endforeach ?>
                 </div>
             </aside>
+
+            <div id="robocom">
+                <h3>Robo Competition!</h3>
+                <table id="robocom_table">
+                    <tr>
+                        <td style="padding-right:25px">Robofighter</td><td style="text-align:right;">Score</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                </table>
+            </div>
         </main>
 
         <footer>
@@ -106,8 +117,10 @@
                 <li><a href="/images">Images</a></li>
                 <li><a href="https://www.facebook.com/groups/270641113015786/?fref=nf">IK Facebook Group</a></li>
                 <li><a href="https://github.com/jspricke/ik-infoscreen">Source on Github</a></li>
+                <!-- <li><a href="/events/robocom.php">Robo Competition!</a></li> -->
             </ul>
         </footer>
 
+    <script type="text/javascript" src="/js/robocom.js"></script>
     </body>
 </html>
